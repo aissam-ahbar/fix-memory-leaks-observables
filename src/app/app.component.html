@@ -1,7 +1,5 @@
-Render the data asynchronously with observable :
-<p>
-  {{ observable1$ | async }}
-</p>
-<p>
-  {{ observable2$ | async }}
-</p>
+<h3>Render data asynchronously with Observable :</h3>
+
+<p>Observable leak fixed with async Pipe: {{ observable1$ | async }}</p>
+
+<p>Observable leak fixed with ngOnDestroy: {{ observable2$ | async }}</p>

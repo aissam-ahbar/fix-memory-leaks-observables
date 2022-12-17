@@ -12,7 +12,7 @@ export class AppComponent implements OnInit, OnDestroy {
   public observable1$: Observable<number> = interval(1000);
 
   // Subscription
-  public observable2$: Observable<string> = of('');
+  public observable2$: Observable<string> = of('Hello world !');
   private subscription: Subscription = new Subscription();
 
   ngOnInit() {
